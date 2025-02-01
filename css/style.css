@@ -8,7 +8,7 @@ reset
    }
 
 
-.flex-box {
+.container {
     display: flex;
 }
 
@@ -35,7 +35,7 @@ header{
 
 .top-1{
     background-color: #daa520;
-    max-width: 89%;
+    max-width: 80%;
     margin: 0 auto;
     justify-content: space-between;
 }
@@ -69,15 +69,80 @@ top-2
     background-color: #00008b;
     padding: 50px 0;
     margin-top: 15px;
+
 }
 
 .top-item-2{
     background-color: #ee82ee;
+    max-width: 65%;
     margin: 0 auto;
 }
 
 .debug-top-2{
     /* display: none; */
-    height: 400px;
-    width: 900px;
+     height: 400px;
+}
+
+
+
+
+/*****************
+    main
+*****************/
+
+
+.main-1{
+    flex-direction: column;
+}
+
+.main-item:nth-child(even) {
+    background-color: #d3d3d3;
+}
+
+
+/*******
+main-items-*-1
+*******/
+
+
+.main-item{
+    padding: 50px 0;   
+   /*  justify-content: center;  
+    align-items: center; */
+}
+
+ 
+
+
+/*******
+main-items-*-2
+*******/
+
+#main-item-1-2{
+    max-width: 80%;
+    /* margin: 0 auto; */
+}
+
+
+
+
+/*******
+main-items-*-3
+*******/
+
+
+#main-item-1-3{
+    background-color: #1e90ff;
+    /* flex-grow: 1;
+    flex-shrink: 0; */
+}
+
+#main-item-2-3{
+    background-color: #ffc0cb;
+    /* flex-grow: 2;
+    flex-shrink: 0; */
+}
+
+.debug-main-item-1-3{
+    height: 500px;
 }
