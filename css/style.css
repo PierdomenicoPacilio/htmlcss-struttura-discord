@@ -6,3 +6,50 @@ reset
     padding: 0;
     box-sizing: border-box;
    }
+
+
+.flex-box {
+    display: flex;
+}
+
+
+/********* 
+header 
+*********/
+
+header{
+    background-color: #add8e6;
+    padding: 15px;
+}
+
+.top{
+    background-color: #daa520;
+    max-width: 70%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.top-item{
+    padding: 15px;
+    flex-shrink: 0;
+}
+
+#logo {
+    flex-grow: 1;
+}
+
+#link{
+    flex-grow: 3;
+    list-style: none;
+    justify-content: center;
+    gap: 5px;
+}
+
+#login{
+    flex-grow: 1;  
+    justify-content: end;
+}
+
+.top-debug{
+    border: 1px dashed #000000; 
+}
